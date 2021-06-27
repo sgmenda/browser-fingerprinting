@@ -1,0 +1,40 @@
+/*
+ * Basic styles for fingerprint test pages
+ */
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+a {
+  color: rgb(79, 0, 224);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(79, 0, 224);
+  background-color: rgba(79, 0, 224, 0.15);
+  border-radius: 4pt;
+}
+
+tr {
+  text-align: right;
+}
