@@ -1,6 +1,6 @@
 # Fdlibm vs Native Graphs
 
-See https://bugzilla.mozilla.org/show_bug.cgi?id=531915#c31
+See [this bugzilla comment](https://bugzilla.mozilla.org/show_bug.cgi?id=531915#c31)
 
 ### The Three Benchmarks
 
