@@ -30,9 +30,13 @@
       >.
     </p>
 
-    <p>
-      <strong>Number of Entries Differing from Hardcoded Fingerprint:</strong>
-      <span id="num-differing-entries"></span>
+    <p style="text-align: center">
+      <strong>Number of Entries Differing from Hardcoded Fingerprint</strong>
+      <br>
+      <span
+        style="font-size: 10em; font-weight: lighter"
+        id="num-differing-entries"
+      ></span>
     </p>
     <p>
       <button onclick="showDiv('raw-values')">Show Raw Values</button>
@@ -190,6 +194,11 @@ SOFTWARE.
 
       let t = document.getElementById('num-differing-entries');
       t.innerText = numDifferingEntries;
+      if (numDifferingEntries === 0) {
+          t.style.color = "#3ABF36";
+      } else {
+          t.style.color = "#D93030";
+      }
     </script>
   </body>
 </html>
